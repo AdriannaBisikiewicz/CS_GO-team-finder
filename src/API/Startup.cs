@@ -10,6 +10,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using CS_GO.DataAccess;
+using CS_GO.Infrastructure.Services;
+using CS_GO.Infrastructure.Services.Interfaces;
+using CS_GO.Repositories.Interfaces;
+using CS_GO.Domain.Model;
+using CS_GO.Repositories;
 
 namespace API
 {
@@ -29,6 +34,9 @@ namespace API
             services.AddDbContext<LibraryContext>(dbOptions => 
                 dbOptions.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("API"))
             );
+            services.AddTransient<IUserService,UserService>();
+            services.AddTransient<IRepository<User>,UserRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

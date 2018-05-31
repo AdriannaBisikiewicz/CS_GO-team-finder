@@ -1,11 +1,12 @@
+using System.Collections.Generic;
 using CS_GO.Domain.Model;
 
-namespace CS_GO.Infrastructure.Services.Interfaces
-{
-    public interface IUserService
-    {
-         User GetBySurname(string surname);
+namespace CS_GO.Infrastructure.Services.Interfaces {
+    public interface IUserService {
+        User GetBySurname (string surname);
 
-         void AddAuthor(User author);
+        void AddUser (User user);
+
+        IList<User> GetAllUsers ();
     }
 }

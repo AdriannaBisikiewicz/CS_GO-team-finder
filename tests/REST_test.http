@@ -1,0 +1,14 @@
+GET http://localhost:5000/api/Values/5
+
+POST http://localhost:5000/api/Values/AddUser/
+Content-Type: application/json
+
+{
+        "User": {
+                "login": "J.K",
+                "password": "Rowling"
+        }
+}
+
+
+GET http://localhost:5000/api/Values/GetUsers
