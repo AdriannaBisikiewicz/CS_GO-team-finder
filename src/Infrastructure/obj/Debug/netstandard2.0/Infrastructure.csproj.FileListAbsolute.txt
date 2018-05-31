@@ -8,3 +8,4 @@
 /home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/Infrastructure/obj/Debug/netstandard2.0/Infrastructure.AssemblyInfo.cs
 /home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/Infrastructure/obj/Debug/netstandard2.0/Infrastructure.dll
 /home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/Infrastructure/obj/Debug/netstandard2.0/Infrastructure.pdb
+/home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/Infrastructure/obj/Debug/netstandard2.0/Infrastructure.csprojResolveAssemblyReference.cache
