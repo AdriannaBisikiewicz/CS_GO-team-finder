@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CS_GO.Domain.Model;
+using CS_GO.Infrastructure.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -9,6 +11,19 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+
+        private IUserService _userService;
+        public ValuesController(IUserService userService)
+        {
+            _userService = userService;
+        }
+
+        [HttpGet("GetAuthor/{surname}")]
+        public User GetAuthorBySurname(string surname)
+        {
+            return _userService.GetBySurname(surname);
+        }
+
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
