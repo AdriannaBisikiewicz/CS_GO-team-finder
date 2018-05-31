@@ -1,9 +1,0 @@
-/home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/Domain/bin/Debug/netstandard2.0/Domain.deps.json
-/home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/Domain/bin/Debug/netstandard2.0/Domain.dll
-/home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/Domain/bin/Debug/netstandard2.0/Domain.pdb
-/home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/Domain/obj/Debug/netstandard2.0/Domain.csproj.CoreCompileInputs.cache
-/home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/Domain/obj/Debug/netstandard2.0/Domain.AssemblyInfoInputs.cache
-/home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/Domain/obj/Debug/netstandard2.0/Domain.AssemblyInfo.cs
-/home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/Domain/obj/Debug/netstandard2.0/Domain.dll
-/home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/Domain/obj/Debug/netstandard2.0/Domain.pdb
-/home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/Domain/obj/Debug/netstandard2.0/Domain.csprojResolveAssemblyReference.cache
