@@ -12,4 +12,3 @@
 /home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/API/obj/Debug/netcoreapp2.0/API.AssemblyInfo.cs
 /home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/API/obj/Debug/netcoreapp2.0/API.dll
 /home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/API/obj/Debug/netcoreapp2.0/API.pdb
-/home/adrianna/Projects/Zajunc/CS_GO-team-finder/src/API/obj/Debug/netcoreapp2.0/API.csprojResolveAssemblyReference.cache
